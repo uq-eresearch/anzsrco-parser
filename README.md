@@ -19,7 +19,7 @@ var parser = new AnzsrcoParser();
 parser.loadRdf(rdfString);
 
 var getTree = function(searchTerm, parser) {
-  var results = parser.getByLabel(searchTerm);
+    var results = parser.getByLabel(searchTerm);
 	var tree = parser.buildTree(results);
 
 	var tmpl = function(inner) {
