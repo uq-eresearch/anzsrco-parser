@@ -10,7 +10,7 @@ but results may also be built into trees using `buildTree(results)` to provide
 hierarchical result trees.
 
 Display is left to UI libraries, however this parser has been used successfully
-with [jsTree](http://www.jstree.com/). 
+with [jsTree](http://www.jstree.com/).
 
 eg.
 
@@ -47,7 +47,7 @@ var getTree = function(searchTerm, parser) {
 
 };
 
-var tree = getTree(/economics/i, parser;
+var tree = getTree(/economics/i, parser);
 $('#tree').jstree({
 	'json' : {
 		'data' : tree,
